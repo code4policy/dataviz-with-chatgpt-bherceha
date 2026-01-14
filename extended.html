@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Boston 311 Calls — All Reasons (2025)</title>
+		<!--[if !IE]><!-->
+		<link rel="stylesheet" type="text/css" href="https://patterns.boston.gov/css/public.css" />
+		<!--<![endif]-->
+		<!--[if lt IE 10]>
+		<link media="all" rel="stylesheet" href="https://patterns.boston.gov/css/ie.css">
+		<![endif]-->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="h" role="banner">
+			<div class="lo lo--abs">
+				<div class="lo-l">
+					<a href="https://www.boston.gov/">
+						<img src="https://patterns.boston.gov/images/public/logo.svg" alt="Boston.gov" class="lo-i">
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="mn">
+			<div class="b-c">
+				<main>
+					<header class="headline">
+						<h1 id="main-headline">BOSTON 311</h1>
+						<p id="sub-headline">This chart shows all reason categories for 311 calls in 2025, with the number of calls on the X axis.</p>
+					</header>
+
+					<section id="chart-area">
+						<svg id="chart"></svg>
+					</section>
+
+					<footer class="attribution">Data source: <em>boston_311_2025_by_reason.csv</em></footer>
+					<p class="authorship">Authorship: Belen, Shreya</p>
+				</main>
+			</div>
+		</div>
+		<footer class="ft">
+			<div class="ft-c">
+				<ul class="ft-ll">
+					<li class="ft-ll-i"><a href="https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement" class="ft-ll-a">Privacy Policy</a></li>
+					<li class="ft-ll-i"><a href="https://www.boston.gov/departments/mayors-office/contact-boston-city-hall" class="ft-ll-a">Contact us</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="script-extended.js"></script>
+	</body>
+</html>

@@ -11,8 +11,8 @@ function render(data) {
   const top = data.sort((a,b)=>b.Count - a.Count).slice(0,10);
 
   // update headlines (single-line & concise)
-  document.getElementById('main-headline').textContent = 'Top reasons account for most Boston 311 calls (2025)';
-  document.getElementById('sub-headline').textContent = 'Number of 311 calls for the top 10 complaint reasons.';
+  document.getElementById('main-headline').textContent = 'Enforcement & Abandoned Vehicles are troubling Boston';
+  document.getElementById('sub-headline').textContent = 'Top 10 reasons for Boston 311 calls in 2025.';
 
   // dimensions
   const margin = {top:20,right:60,bottom:40,left:240};
