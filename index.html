@@ -1,1 +1,26 @@
-<!-- Your HTML goes here -->
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Boston 311 Calls — Top 10 Reasons (2025)</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<main>
+			<header class="headline">
+				<h1 id="main-headline">Boston 311 call patterns, 2025</h1>
+				<p id="sub-headline">This chart shows the reason categories (Y axis) and the number of 311 calls for each reason (X axis).</p>
+			</header>
+
+			<section id="chart-area">
+				<svg id="chart"></svg>
+			</section>
+
+			<footer class="attribution">Data: <em>boston_311_2025_by_reason.csv</em></footer>
+		</main>
+
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
